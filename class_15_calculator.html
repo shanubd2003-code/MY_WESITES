@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="class_15_calculator.css">
+    
+</head>
+<body>
+    <br><br>
+    <a class="neon_mode" href="calculator_neon_mode.html">Neon Mode</a>
+    <br><br><br>
+    <h1 class="h1">CALCULATOR SIMULATOR</h1>
+    <br><br><br>
+    <div class="body_part">
+        <div style="text-align: center;">
+            <input type="text" id="display" readonly>
+            <br><br>
+            <div class="grid1">
+                
+                <button id="per" onclick="persentageIt('%')">%</button>
+                <button id="de" onclick="removeIt()">⌫</button>
+                <button id="cl" onclick="clearDisplay()">AC</button>
+                <button id="op" onclick="showIt('/')">÷</button>
+                <button id="num" onclick="showIt('7')">7</button>
+                <button id="num" onclick="showIt('8')">8</button>
+                <button id="num" onclick="showIt('9')">9</button>
+                <button id="op" onclick="showIt('*')">×</button>
+                <button id="num" onclick="showIt('4')">4</button>
+                <button id="num" onclick="showIt('5')">5</button>
+                <button id="num" onclick="showIt('6')">6</button>
+                <button id="op" onclick="showIt('-')">-</button> 
+                <button id="num" onclick="showIt('1')">1</button>
+                <button id="num" onclick="showIt('2')">2</button>
+                <button id="num" onclick="showIt('3')">3</button>
+                <button id="op" onclick="showIt('+')">+</button>           
+                <button id="num" onclick="showIt('0')">0</button>
+                <button id="num" onclick="showIt('00')">00</button>            
+                <button id="do"  onclick="showIt('.')">.</button>
+                <button id="eq" onclick="result()">=</button>
+                
+                 
+            </div>
+        </div>
+    <script type="text/javascript" src="class_15_calculator.js"></script>
+    </div>
+    <br><br><br><br><br>
+</body>
+</html>

@@ -1,0 +1,189 @@
+body{
+    font-family: sans-serif;
+    background-color: #0B0F19;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    justify-content: center;
+    grid-row-gap: 12px;
+    grid-column-gap: 40px;
+}
+
+Button{
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    border-radius: 12px;
+    border-style: double;
+    padding: 10px;
+    margin-left: -10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+#display{
+    font-size: 62px;
+    text-align: right;
+    height: 120px;
+    width: 400px;
+    padding: 16px;
+    background: #33363d;
+    color: #FFFFFF;
+    border: lightskyblue;
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 8px 2px #020617;
+
+}
+
+.body_part{
+    background-color: #1E293B;
+    width: 440px;
+    height: 615px;
+    padding: 24px ;
+    border-radius: 20px;
+    margin-left: 405px;
+    box-shadow:inset 0px 0px 8px 2px;
+}
+
+#num{
+    border-color: #0F172A;
+    background-color: #1F2937;
+    box-shadow:inset 0px 0px 10px 2px #0F172A;
+    color: #D1D5DB;
+}
+
+#num:hover{
+    border-color: #162238 ;
+    background-color: #4B5563;
+    box-shadow:inset 0px 0px 8px 2px #162238;
+    color: #FFFFFF;
+}
+
+#op{
+    font-size: 45px;
+    border-color: #1E40AF;
+    background-color: #438DFB;
+    box-shadow:inset 0px 0px 8px 2px #1E40AF;
+    color: #FFFFFF;
+}
+
+#op:hover{
+    font-size: 45px;
+    border-color: #2563EB ;
+    background-color: #60A5FA;
+    box-shadow:inset 0px 0px 8px 2px #2563EB;
+    color: #FFFFFF;
+}
+
+#cl{
+    border-color: #991B1B;
+    background-color: #C6443E;
+    box-shadow:inset 0px 0px 8px 2px #991B1B;
+    color: #7F1D1D;
+}
+
+#cl:hover{
+    border-color: #701A1A ;
+    background-color: #EF4444;
+    box-shadow:inset 0px 0px 8px 2px #701A1A;
+    color: #FFFFFF;
+}
+
+#eq{
+    border-color: #065F46;
+    background-color: #2EC77A;
+    box-shadow:inset 0px 0px 8px 2px #065F46;
+}
+
+#eq:hover{
+    border-color: #044E3B ;
+    background-color: #34D399;
+    box-shadow:inset 0px 0px 8px 2px #044E3B;
+}
+
+#do{
+    border-color: #0F172A;
+    background-color: #1F2937;
+    box-shadow:inset 0px 0px 8px 2px #0F172A;
+    color: #D1D5DB; 
+}
+
+#do:hover{
+    border-color: #162238 ;
+    background-color: #4B5563;
+    box-shadow:inset 0px 0px 8px 2px #162238;
+    color: #FFFFFF;
+}
+
+#per{
+    border-color: #1E40AF;
+    background-color: #438DFB;
+    color: #FFFFFF ;
+    box-shadow:inset 0px 0px 8px 2px #1E40AF;
+    
+}
+
+#per:hover{
+    border-color: #2563EB ;
+    background-color: #60A5FA;
+    box-shadow:inset 0px 0px 8px 2px #2563EB;
+    color: #FFFFFF;
+}
+
+#de{
+    border-color: #1E40AF;
+    background-color: #438DFB;
+    color: #D1D5DB;
+    box-shadow:inset 0px 0px 8px 2px #1E40AF;
+}
+
+#de:hover{
+    border-color: #2563EB ;
+    background-color: #60A5FA;
+    box-shadow:inset 0px 0px 8px 2px #2563EB;
+    color: #FFFFFF;
+}
+
+.h1{
+    text-align: center;
+    font-size: 70px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 4px #00e5ff, 0px 0px 18px #00e5ff;
+}
+
+.neon_mode{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 0px 0px 4px #00e5ff, 0px 0px 18px #00e5ff;
+    background-color: #7CE5F7;
+    width: 180px;
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: #7CE5F7;
+    box-shadow: 0px 0px 4px 2px #7CE5F7 ;
+}
+
+.neon_mode:hover{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 20px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 4px #00e5ff, 0px 0px 18px #00e5ff;
+    background-color: #0B132B;
+    width: 180px;
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px #FFFFFF ;
+}

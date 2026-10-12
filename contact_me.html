@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="portfolio_project.css">
+</head>
+<body>
+    <div class="top_part">
+        
+        <div class="flex">
+            <h2 class="h1"><span class="h1p1">Maimun</span><span class="h1p2">Codes</span></h2>
+
+            <a href="portfolio_project.html" id="li" class="li" style="cursor: pointer;">Home</a>
+            <a href="about.html" id="li" style="cursor: pointer;">About</a>
+            <a href="my_skills.html" id="li" style="cursor: pointer;">Skills</a>
+            <a href="my_projects.html" id="li" style="cursor: pointer;">Projects</a>
+        </div>
+    </div>
+
+    <div class="Contact" style="background-color: rgb(231, 239, 245); margin-left: -10px; margin-right: -20px;">
+        <br><br><br><br><br>
+        <h1 style="text-align: center; margin-left: 80px; cursor: default;"><b>Contact Me</b></h1>
+        <br>
+        <div class="flex">
+            <div class="leftside" style="margin-left: 120px; ">
+                <h2 style="margin-bottom: 10px; cursor: default;">Let's Talk!</h2>
+                <br>
+                <p style="cursor: default;"><span>You can send me a message using this form.</span><br><br><span><b>Email:</b> shanu.bd.2003@gmail.com</span><br><br><span><b>City:</b> Dhaka,Bangladesh</span></p>
+                <img src="images/mail_image.png" alt="" height="280px" style=" border-radius: 30px; cursor: default;">
+                
+            </div>
+            <div class="flex" style="margin-left: 135px;">
+                
+                <div class="rightside" style="background-color:#FFFFFF ; padding: 30px; border-radius: 10px;">
+                    <form onsubmit="return valid()">
+                        <label style="cursor: default;">Your Name</label>
+                        <br>
+                        <input class="input" type="text" id="name" placeholder="Enter your name" >
+                        <br><br>
+                        <label style="cursor: default;">Your Email</label>
+                        <br>
+                        <input class="input" type="email" id="email" placeholder="Enter your email" >
+                        <br><br>
+                        <label style="cursor: default;">Why are you contacting me?</label>
+                        <br>
+                        <select class="input" id="reason" style="width: 528px; cursor: pointer;">
+                            <option value="Choose One">Choose One</option>
+                            <option value="Want to be my friend">Want to be my friend</option>
+                            <option value="Want my help">Want my help</option>
+                            <option value="Want my advice">Want my advice</option>
+                        </select>
+                        <br><br>
+                        <label style="cursor: default;">Your Message</label>
+                        <br>
+                        <textarea cols="70" rows="10" placeholder="Write your message" style="border-radius: 5px; border: 1px solid rgb(188, 188, 188); font-family: sans-serif; padding: 10px; padding-top: 20px;"></textarea>
+                        <br><br>
+                        <h4 id="error" style="cursor: default;"></h4>
+                        <br>
+                        <button onclick="valid()" id="sub_btn" class="submit-btn" style="cursor: pointer;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        
+        </div>
+        <br><br><br><br><br><br><br><br>
+    </div>
+    
+    
+    <div class="footer">
+        <br><br><br>
+        <table>
+            <tr>
+                <th></th>
+                <th class="fh"><h3><h2 class="h1" style="margin-left: 0px; text-align: left;"><span class="h1p1">Maimun</span><span class="h1p2">Codes</span></h2></h3></th>
+                <th class="fh"><h3 class="h1" style="margin-left: -5px; text-align: left;">Contact</h3></th>
+                <th class="fh"></th>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="td" style="cursor: default;">A student portfolio created to showcase my web</td>
+                <td class="td" style="cursor: default;"><b>Email:</b> shanu.bd.2003@gmail.com</td>
+                <td class="td"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td  style="padding-left: 50px; text-align: left; cursor: default;">design skills, projects, and creativity.</td>
+                <td class="td" style="cursor: default;">Dhaka, Bangladesh</td>
+                <td class="td"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="td"></td>
+                <td class="td"></td>
+                <td class="td"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="td"></td>
+                <td class="td"></td>
+                <td class="td"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td class="td"></td>
+                <td class="td"></td>
+                <td class="td"></td>
+            </tr>
+        </table>
+        <br><br><br>
+        <hr style="color: rgb(82, 82, 182); border: 1px solid; width: 90%; cursor: default;">
+        <br>
+        <p style="color: #FFFFFF; text-align: center; cursor: default;">© 2026 MaimunCodes | Made With HTML, CSS & JavaScript</p>
+        <br>
+    </div> 
+    
+<script src="portfolio_project.js"></script>
+</body>
+</html>

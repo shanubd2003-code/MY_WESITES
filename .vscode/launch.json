@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open Portfolio Site",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/portfolio_project.html"
+    },
+    {
+      "name": "Open Portfolio Site in Edge",
+      "type": "msedge",
+      "request": "launch",
+      "file": "${workspaceFolder}/portfolio_project.html"
+    }
+  ]
+}

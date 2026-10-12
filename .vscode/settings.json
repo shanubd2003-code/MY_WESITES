@@ -1,0 +1,393 @@
+{
+  "files.autoSave": "afterDelay",
+  "vscode-edge-devtools.webhint": false,
+  "editor.minimap.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorTheme": "Dark 2026",
+  "editor.fontFamily": "Orbitron",
+  "editor.fontLigatures": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.renderLineHighlight": "line",
+  "editor.semanticHighlighting.enabled": false,
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#000000",
+    "editorGutter.background": "#000000",
+    "editor.lineHighlightBackground": "#000000",
+    "editor.lineHighlightBorder": "#00000000",
+    "sideBar.background": "#000000",
+    "sideBarSectionHeader.background": "#000000",
+    "activityBar.background": "#000000",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorGroupHeader.noTabsBackground": "#000000",
+    "tab.activeBackground": "#000000",
+    "tab.inactiveBackground": "#000000",
+    "tab.border": "#000000",
+    "tab.activeBorder": "#000000",
+    "tab.activeBorderTop": "#000000",
+    "tab.unfocusedActiveBorder": "#000000",
+    "tab.unfocusedActiveBorderTop": "#000000",
+    "statusBar.background": "#000000",
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.debuggingBackground": "#000000",
+    
+    "titleBar.activeBackground": "#000000",
+    "titleBar.inactiveBackground": "#000000",
+    "titleBar.border": "#000000",
+    
+    "commandCenter.background": "#000000",
+    "commandCenter.activeBackground": "#111111",
+    "commandCenter.border": "#000000",
+    "commandCenter.activeBorder": "#00F0FF",
+    "commandCenter.inactiveBorder": "#000000",
+
+    "menu.background": "#000000",
+    "dropdown.background": "#000000",
+    "input.background": "#000000",
+    "panel.background": "#000000",
+    "panelTitleBar.activeBackground": "#000000",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#00FD61",
+    "breadcrumb.background": "#000000",
+    "editorStickyScroll.background": "#000000",
+    "editorWidget.background": "#000000",
+    "editorOverviewRuler.background": "#000000",
+    "editorSuggestWidget.background": "#000000",
+    "editorHoverWidget.background": "#000000",
+    "scrollbarSlider.background": "#000000",
+    "scrollbarSlider.hoverBackground": "#111111",
+    "scrollbarSlider.activeBackground": "#222222"
+  },
+
+  "editor.tokenColorCustomizations": {
+    "variables": "#00F0FF",
+    "textMateRules": [
+      {
+        "name": "1. Control Flow & Return Keywords -> Bright Neon Red",
+        "scope": [
+          "keyword.control.js",
+          "keyword.control.conditional.js",
+          "keyword.control.flow.js",
+          "keyword.control.conditional.python",
+          "keyword.control.flow.python",
+          "keyword.control.import.python",
+          "keyword.control.exception.python"
+        ],
+        "settings": { "foreground": "#FF0055" }
+      },
+      {
+        "name": "2. Document, Metadata & Storage Keywords -> Neon Purple",
+        "scope": [
+          "entity.name.tag.html.head",
+          "entity.name.tag.html.title",
+          "entity.name.tag.html.meta",
+          "entity.name.tag.html.link",
+          "entity.name.tag.html.style",
+          "entity.name.tag.html.script",
+          "keyword.operator.new.js",
+          "keyword.other.js",
+          "storage.type.js",
+          "storage.type.function.js",
+          "storage.modifier.js",
+          "storage.type.function.python",
+          "storage.type.class.python",
+          "keyword.other.python"
+        ],
+        "settings": { "foreground": "#DF00FF" }
+      },
+      {
+        "name": "3. HTML Structure, CSS Selectors & Python Built-ins -> Neon Orange",
+        "scope": [
+          "entity.name.tag.html.body",
+          "entity.name.tag.html.div",
+          "entity.name.tag.html.header",
+          "entity.name.tag.html.footer",
+          "entity.name.tag.html.main",
+          "entity.name.tag.html.nav",
+          "entity.name.tag.html.section",
+          "entity.name.tag.html.article",
+          "entity.name.tag.css",
+          "entity.name.tag.html",
+          "support.class.js",
+          "support.class.builtin.js",
+          "support.function.builtin.python",
+          "support.type.python"
+        ],
+        "settings": { "foreground": "#FF5F1F" }
+      },
+      {
+        "name": "4. HTML Headings, Text Tags & Custom Functions/Methods -> Electric Blue",
+        "scope": [
+          "entity.name.tag.html.h1",
+          "entity.name.tag.html.h2",
+          "entity.name.tag.html.h3",
+          "entity.name.tag.html.h4",
+          "entity.name.tag.html.h5",
+          "entity.name.tag.html.h6",
+          "entity.name.tag.html.p",
+          "entity.name.tag.html.span",
+          "entity.name.tag.html.a",
+          "entity.name.tag.html.strong",
+          "entity.name.tag.html.em",
+          "entity.name.tag.html.b",
+          "entity.name.tag.html.i",
+          "entity.name.tag.html.br",
+          "entity.name.function.js",
+          "support.function.js",
+          "support.function.console.js",
+          "punctuation.section.property-list.css",
+          "keyword.control.at-rule.media.css",
+          "entity.name.function.python",
+          "meta.function-call.generic.python"
+        ],
+        "settings": { "foreground": "#0066FF" }
+      },
+      {
+        "name": "5. HTML Lists, Tables & All JS/Python Variables, Properties & Identifiers -> Bright Turquoise",
+        "scope": [
+          "entity.name.tag.html.ul",
+          "entity.name.tag.html.ol",
+          "entity.name.tag.html.li",
+          "entity.name.tag.html.dl",
+          "entity.name.tag.html.dt",
+          "entity.name.tag.html.dd",
+          "entity.name.tag.html.table",
+          "entity.name.tag.html.tr",
+          "entity.name.tag.html.td",
+          "entity.name.tag.html.th",
+          "entity.name.tag.html.thead",
+          "entity.name.tag.html.tbody",
+          "entity.name.tag.html.details",
+          "entity.name.tag.html.summary",
+          "entity.name.tag.html.dialog",
+          "entity.other.attribute-name.html",
+          "support.type.property-name.css",
+          "support.constant.property-value.css",
+          "support.constant.font-name.css",
+          "text.html.derivative",
+          "variable",
+          "variable.other",
+          "variable.other.js",
+          "variable.other.object.js",
+          "variable.other.property.js",
+          "variable.other.readwrite.js",
+          "variable.other.assignment.js",
+          "variable.other.constant.js",
+          "variable.language.js",
+          "meta.definition.variable.js",
+          "support.type.object.module.js",
+          "variable.other.python",
+          "variable.other.readwrite.python",
+          "variable.other.property.python",
+          "variable.parameter.python",
+          "variable.parameter.function.python",
+          "variable.parameter.function.language.python",
+          "meta.attribute.python",
+          "meta.indexed-name.python",
+          "meta.item-access.python",
+          "source.python",
+          "source.js"
+        ],
+        "settings": { "foreground": "#00F0FF" }
+      },
+      {
+        "name": "6. HTML Media, CSS Classes, Decorators & Special Methods -> Neon Hot Pink",
+        "scope": [
+          "entity.name.tag.html.img",
+          "entity.name.tag.html.video",
+          "entity.name.tag.html.audio",
+          "entity.name.tag.html.source",
+          "entity.name.tag.html.iframe",
+          "entity.name.tag.html.canvas",
+          "entity.name.tag.html.svg",
+          "entity.other.attribute-name.class.css",
+          "support.type.object.dom.js",
+          "variable.parameter.js",
+          "entity.name.type.class.python",
+          "meta.function.decorator.python",
+          "support.variable.magic.python"
+        ],
+        "settings": { "foreground": "#FF10F0" }
+      },
+      {
+        "name": "7. HTML Forms -> Neon Lime Green",
+        "scope": [
+          "entity.name.tag.html.form",
+          "entity.name.tag.html.input",
+          "entity.name.tag.html.button",
+          "entity.name.tag.html.select",
+          "entity.name.tag.html.textarea",
+          "entity.name.tag.html.label"
+        ],
+        "settings": { "foreground": "#39FF14" }
+      },
+      {
+        "name": "8. Deprecated Elements & Comments -> Bright Neon Red",
+        "scope": [
+          "comment.block.html",
+          "comment.block.css",
+          "comment.line.css",
+          "comment.line.double-slash.js",
+          "comment.block.js",
+          "comment.line.number-sign.python",
+          "invalid.deprecated.entity.name.tag.html",
+          "entity.name.tag.html.font",
+          "entity.name.tag.html.center",
+          "entity.name.tag.html.marquee",
+          "entity.name.tag.html.strike",
+          "entity.name.tag.html.big",
+          "entity.name.tag.html.tt"
+        ],
+        "settings": { "foreground": "#FF0055" }
+      },
+      {
+        "name": "9. Punctuation, Accessor Dots, Brackets & Operators -> Electric Yellow",
+        "scope": [
+          "punctuation.definition.tag.begin.html",
+          "punctuation.definition.tag.end.html",
+          "punctuation.separator.key-value.html",
+          "punctuation.separator.value.html",
+          "punctuation.terminator.rule.css",
+          "punctuation.separator.key-value.css",
+          "punctuation.definition.entity.css",
+          "punctuation.section.property-list.css",
+          "punctuation.separator.sequence.css",
+          "punctuation.definition.parameters.css",
+          "punctuation.accessor",
+          "punctuation.accessor.js",
+          "punctuation.accessor.python",
+          "punctuation.separator.key-value.js",
+          "punctuation.separator.comma.js",
+          "punctuation.separator.annotation.python",
+          "punctuation.separator.colon.python",
+          "punctuation.separator.element.python",
+          "punctuation.separator.period.python",
+          "punctuation.section.class.python",
+          "punctuation.section.function.python",
+          "keyword.operator",
+          "keyword.operator.js",
+          "keyword.operator.assignment",
+          "keyword.operator.assignment.js",
+          "keyword.operator.arithmetic.js",
+          "keyword.operator.relational.js",
+          "keyword.operator.comparison.js",
+          "meta.brace.round.js",
+          "meta.brace.square.js",
+          "punctuation.definition.parameters.begin.js",
+          "punctuation.definition.parameters.end.js",
+          "punctuation.terminator.statement.js",
+          "keyword.operator.python",
+          "keyword.operator.assignment.python",
+          "keyword.operator.arithmetic.python",
+          "keyword.operator.comparison.python",
+          "keyword.operator.logical.python",
+          "punctuation.definition.arguments.begin.python",
+          "punctuation.definition.arguments.end.python",
+          "punctuation.definition.list.begin.python",
+          "punctuation.definition.list.end.python",
+          "punctuation.definition.dict.begin.python",
+          "punctuation.definition.dict.end.python"
+        ],
+        "settings": { "foreground": "#CCFF00" }
+      },
+      {
+        "name": "10. Strings, Numbers, Booleans & Constants -> Bright Acid Green",
+        "scope": [
+          "string.quoted.double.html",
+          "string.quoted.single.html",
+          "string.quoted.double.js",
+          "string.quoted.single.js",
+          "string.template.js",
+          "string.quoted.double.python",
+          "string.quoted.single.python",
+          "string.quoted.docstring.multi.python",
+          "constant.numeric",
+          "constant.numeric.css",
+          "constant.numeric.js",
+          "constant.numeric.python",
+          "constant.language.boolean.js",
+          "constant.language.null.js",
+          "constant.language.undefined.js",
+          "constant.language.python",
+          "constant.other.color.rgb-hex.css"
+        ],
+        "settings": { "foreground": "#39FF14" }
+      },
+      {
+        "name": "11. CSS Units -> Dim Muted Amber",
+        "scope": [
+          "keyword.other.unit",
+          "keyword.other.unit.css",
+          "keyword.other.unit.percentage.css",
+          "keyword.other.unit.pixels.css"
+        ],
+        "settings": { "foreground": "#E6A100", "fontStyle": "" }
+      },
+      {
+        "name": "12. CSS IDs & Pseudo-Classes -> Cyber Gold",
+        "scope": [
+          "entity.other.attribute-name.id.css",
+          "entity.other.attribute-name.pseudo-class.css",
+          "entity.other.attribute-name.pseudo-element.css",
+          "entity.other.attribute-name.pseudo-class",
+          "entity.other.attribute-name.pseudo-element"
+        ],
+        "settings": { "foreground": "#FFD700" }
+      },
+     {
+        "name": "11. CSS Standalone Numbers (px, %, etc.) -> Bright Acid Green",
+        "scope": [
+          "constant.numeric.css"
+        ],
+        "settings": { "foreground": "#39FF14" }
+      },
+      {
+        "name": "12. CSS Units (px, %) -> Neon Orange",
+        "scope": [
+          "keyword.other.unit",
+          "keyword.other.unit.css",
+          "keyword.other.unit.percentage.css",
+          "keyword.other.unit.pixels.css"
+        ],
+        "settings": { "foreground": "#FF5F1F", "fontStyle": "" }
+      },
+      {
+        "name": "13. CSS Property Values & Keywords (right, none, default, etc.) -> Neon Green",
+        "scope": [
+          "support.constant.property-value.css",
+          "string.unquoted.css"
+        ],
+        "settings": { "foreground": "#39FF14" }
+      },
+      {
+        "name": "14. CSS IDs & Pseudo-Classes -> Cyber Gold",
+        "scope": [
+          "entity.other.attribute-name.id.css",
+          "entity.other.attribute-name.pseudo-class.css",
+          "entity.other.attribute-name.pseudo-element.css",
+          "entity.other.attribute-name.pseudo-class",
+          "entity.other.attribute-name.pseudo-element"
+        ],
+        "settings": { "foreground": "#FFD700" }
+      },
+      {
+        "name": "15. ULTIMATE PRIORITY OVERRIDE: ALL CSS HEX & COLOR NAMES -> SOLID NEON RED",
+        "scope": [
+          "constant.other.color.rgb-value.hex.css",
+          "constant.other.color.rgb-hex.css",
+          "constant.other.color.rgb-value.css",
+          "punctuation.definition.constant.css",
+          "support.constant.color.css",
+          "support.constant.color.w3c-standard-color-name.css",
+          "support.constant.color.w3c-standard-color.css",
+          "support.constant.color.w3c-extended-color.css",
+          "constant.other.color",
+          "support.constant.color"
+        ],
+        "settings": { "foreground": "#FF0055" }
+      }
+    ]
+  }
+}

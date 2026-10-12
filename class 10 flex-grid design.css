@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background: url(images/BG.png;)
+}
+
+h2{
+    text-align: center;
+    color: orangered;
+    margin-bottom: -30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.flex-container{
+
+    display: flex;
+
+}
+
+.grid-container1{
+
+    display: grid;
+    grid-template-columns: 220px 220px;
+    justify-content: center;
+    grid-row-gap: 15px ;
+    grid-column-gap : 15px;
+
+}
+
+.grid-container1 div{
+    
+    padding: 30px;
+    background-color: azure;
+}
+
+.grid-container1 a{
+    color: orange;
+    text-decoration: none;
+}
+
+
+
+
+
+    

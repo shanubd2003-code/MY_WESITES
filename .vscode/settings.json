@@ -57,7 +57,8 @@
     "editorHoverWidget.background": "#000000",
     "scrollbarSlider.background": "#000000",
     "scrollbarSlider.hoverBackground": "#111111",
-    "scrollbarSlider.activeBackground": "#222222"
+    "scrollbarSlider.activeBackground": "#222222",
+    "textLink.foreground": "#FF5F1F"
   },
 
   "editor.tokenColorCustomizations": {
@@ -217,12 +218,16 @@
         "settings": { "foreground": "#CCFF00" }
       },
       {
-        "name": "10. Strings, Numbers & Booleans -> Bright Acid Green",
+        "name": "10. General Strings, Numbers & Booleans -> Bright Acid Green",
         "scope": [
           "string.quoted.double.html",
           "string.quoted.single.html",
           "string.quoted.double.js",
           "string.quoted.single.js",
+          "string.template.js",
+          "string.quoted.double.python",
+          "string.quoted.single.python",
+          "string.quoted.docstring.multi.python",
           "constant.numeric",
           "constant.numeric.css"
         ],
@@ -256,11 +261,17 @@
         "settings": { "foreground": "#FFD700" }
       },
       {
-        "name": "14. URL TEXT -> NEON ORANGE",
+        "name": "14. URL & LINK ATTRIBUTES (href, src, url()) -> NEON ORANGE",
         "scope": [
+          "meta.attribute.href.html string.quoted.double.html",
+          "meta.attribute.href.html string.quoted.single.html",
+          "meta.attribute.src.html string.quoted.double.html",
+          "meta.attribute.src.html string.quoted.single.html",
           "support.function.url.css",
           "string.unquoted.url.css",
-          "variable.parameter.url.css"
+          "variable.parameter.url.css",
+          "markup.underline.link",
+          "string.other.link"
         ],
         "settings": { "foreground": "#FF5F1F" }
       },

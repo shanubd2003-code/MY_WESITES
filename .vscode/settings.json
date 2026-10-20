@@ -198,7 +198,7 @@
         "settings": { "foreground": "#FF0055" }
       },
       {
-        "name": "9. Punctuation, Accessor Dots, Brackets & Commas -> Electric Yellow",
+        "name": "9. Punctuation, Brackets & Operators -> Electric Yellow",
         "scope": [
           "punctuation.definition.tag.begin.html",
           "punctuation.definition.tag.end.html",
@@ -217,15 +217,7 @@
         "settings": { "foreground": "#CCFF00" }
       },
       {
-        "name": "10. Strings & CSS URLs -> Neon Orange",
-        "scope": [
-          "support.function.url.css",
-          "variable.parameter.url.css"
-        ],
-        "settings": { "foreground": "#FF5F1F" }
-      },
-      {
-        "name": "11. Strings, Numbers & Booleans -> Bright Acid Green",
+        "name": "10. Strings, Numbers & Booleans -> Bright Acid Green",
         "scope": [
           "string.quoted.double.html",
           "string.quoted.single.html",
@@ -237,7 +229,7 @@
         "settings": { "foreground": "#39FF14" }
       },
       {
-        "name": "12. CSS Units (px, %) -> Neon Orange",
+        "name": "11. CSS Units (px, %) -> Neon Orange",
         "scope": [
           "keyword.other.unit",
           "keyword.other.unit.css",
@@ -247,7 +239,7 @@
         "settings": { "foreground": "#FF5F1F", "fontStyle": "" }
       },
       {
-        "name": "13. CSS Property Values & Keywords -> Neon Green",
+        "name": "12. CSS Property Values & Keywords -> Neon Green",
         "scope": [
           "support.constant.property-value.css",
           "string.unquoted.css"
@@ -255,7 +247,7 @@
         "settings": { "foreground": "#39FF14" }
       },
       {
-        "name": "14. CSS IDs & Pseudo-Classes -> Cyber Gold",
+        "name": "13. CSS IDs & Pseudo-Classes -> Cyber Gold",
         "scope": [
           "entity.other.attribute-name.id.css",
           "entity.other.attribute-name.pseudo-class.css",
@@ -264,7 +256,16 @@
         "settings": { "foreground": "#FFD700" }
       },
       {
-        "name": "15. ULTIMATE PRIORITY OVERRIDE: CSS HEX, RGB & COLOR NAMES -> SOLID NEON RED",
+        "name": "14. URL TEXT -> NEON ORANGE",
+        "scope": [
+          "support.function.url.css",
+          "string.unquoted.url.css",
+          "variable.parameter.url.css"
+        ],
+        "settings": { "foreground": "#FF5F1F" }
+      },
+      {
+        "name": "15. ULTIMATE PRIORITY OVERRIDE: CSS HEX, RGB FUNCTION & COLOR NAMES -> SOLID NEON RED",
         "scope": [
           "constant.other.color.rgb-value.hex.css",
           "constant.other.color.rgb-hex.css",
@@ -274,11 +275,26 @@
           "support.constant.color.w3c-standard-color-name.css",
           "support.constant.color.w3c-standard-color.css",
           "support.constant.color.w3c-extended-color.css",
+          "support.function.css",
           "support.function.misc.css",
+          "support.function.any-call.css",
+          "entity.name.function.css",
+          "meta.function-call.css",
           "constant.other.color",
           "support.constant.color"
         ],
         "settings": { "foreground": "#FF0055" }
+      },
+      {
+        "name": "16. ABSOLUTE COMMAS OVERRIDE -> ELECTRIC YELLOW",
+        "scope": [
+          "punctuation.separator.comma.css",
+          "punctuation.separator.list.comma.css",
+          "punctuation.separator.arguments.css",
+          "punctuation.separator.delimiter.css",
+          "punctuation.separator.comma"
+        ],
+        "settings": { "foreground": "#CCFF00" }
       }
     ]
   }

@@ -276,15 +276,35 @@ table{
     text-align: left;
 }
 
+.td1{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.td1:hover{
+    text-decoration: none;
+    color: #fdd72d;
+    font-size: 18px;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
 th{
     text-align: center;
     padding: 10px;
-    padding-left: 60px;
+    padding-left: 50px;
     padding-right: 120px;
 }
 
 .fh{
-    padding-left: 50px;
+    padding-left: 40px;
     padding-right: 50px;
     text-align: left;
     color: #fdd72d;
@@ -292,7 +312,7 @@ th{
 td{
     text-align: center;
     padding: 10px;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-right: 50px;
     text-align: center;
     color: #FFFFFF;

@@ -164,9 +164,11 @@ h5{
 
 .hnb{
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
     margin-top: 160px;
     height: 500px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
 
 }
 

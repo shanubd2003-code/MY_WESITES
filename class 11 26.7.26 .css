@@ -4,7 +4,7 @@ body{
     margin-right: 120px;
     font-family: sans-serif;
     background: url(images/BG.png);
-    background-size: 2140px;
+    background-size: 2160px;
 }
 
 
@@ -14,6 +14,14 @@ body{
     float: right;
     font-size: 20px;
     color: rgb(6, 6, 218);
+
+}
+
+#btnl:hover{
+    text-decoration: none;
+    float: right;
+    font-size: 20px;
+    color: rgb(244, 174, 35);
 
 }
 
@@ -34,36 +42,42 @@ body{
 }
 
 .box1{
+    border: 2px black double;
     height: 25px;
     width: 240px;
     background-color: rgb(176, 178, 180);
 }
 
 .box1:hover{
+    border: 2px black double;
     height: 25px;
     width: 240px;
     background-color: whitesmoke;
 }
 
 .box2{
+    border: 2px black double;
     height: 30px;
     width: 510px;
     background-color: rgb(176, 178, 180);
 }
 
 .box2:hover{
+    border: 2px black double;
     height: 30px;
     width: 510px;
     background-color: whitesmoke;
 }
 
 .box3{
+    border: 2px black double;
     height: 25px;
     width: 346px;
     background-color: rgb(176, 178, 180);
 }
 
 .box3:hover{
+    border: 2px black double;
     height: 25px;
     width: 346px;
     background-color: whitesmoke;
@@ -80,9 +94,10 @@ body{
     background-color: rgb(11, 11, 187);
     color: whitesmoke;
     padding: 10px;
-    border-color: blue groove;
+    border-color: rgb(11, 11, 187);
+    border:2px rgb(11, 11, 187) double;
     border-radius: 12px;
-    width: 170px;
+    width: 200px;
     
     
 }
@@ -93,9 +108,10 @@ body{
     background-color: lightblue;
     color: black;
     padding: 10px;
-    border-color: blue groove;
+    border-color: lightblue;
     border-radius: 12px;
-    width: 170px;
+    border:2px lightblue double;
+    width: 200px;
     
 }
 

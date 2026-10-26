@@ -7,75 +7,77 @@
     <link rel="stylesheet" href="class 7 project.css">
 </head>
     
-<body style="font-family: Verdana;">
+<body style="font-family: sans-serif; text-align: center;">
 
     
     <br><br><br>
     <img src="images/logo.png" alt="logo" width="50%"><br><br>
     <br><br>
-    <h1><b><i>Air ticket Booking</i></b></h1><br><br>
-    
-    <form action="class 7 (2) .project.html">
-        <label style="font-family: Verdana;">Username</label><br>
-        <br><input type="text" class="box1" id="fname" name="fname" placeholder="First name" style="cursor: text;"><br>
-        <br><input type="text" class="box1" id="lname" name="lname" placeholder="Last name" style="cursor: text;"><br>
-
-        <br><br><label style="font-family: Verdana;" >Email Address</label>
-        <br><br><input type="email" class="box1" id="email" name="email" placeholder="Email" style="cursor: text;"><br><br>
-        <br><br><label style="font-family: Verdana;">Password</label><br>
-       <br><input type="password" class="box1" id="Password" name="Password" placeholder="Password" style="cursor: text;"><br>
-       <br><br><label style="font-family: Verdana;">Phone Number</label><br>
-        <br><input type="number" class="box1" id="number" name="number" placeholder="Contact " style="cursor: text;"><br>
+    <div style="background-color: #FFFFFF; height: 1330px; width: 750px; border-radius: 26px; padding: 20px; margin-left: 250px; box-shadow: inset grey 0px 0px 15px;">
+        <h1><b><i>Air ticket Booking</i></b></h1><br><br>
         
-        <br><br><br><h3 style="cursor: default;"><b>Gender</b></h3><br>
-        <input type="radio" class="Gender" name="Gender" value="male" style="cursor: pointer;">
-        <label style="font-family: Verdana;"> <b>Male</b></label>
-        <input type="radio" class="Gender" name="Gender" value="female" style="cursor: pointer;">
-        <label style="font-family: Verdana;"> <b>Female</b></label><br><br>
+        <form onsubmit="return valid()" action="class 7 (2) .project.html">
+            <label style="font-family: Verdana;">Username</label><br>
+            <br><input type="text" class="box1" id="fname" name="fname" placeholder="First name" style="cursor: text;">
+            <input type="text" class="box1" id="lname" name="lname" placeholder="Last name" style="cursor: text;"><br>
 
-        <br><br><h3 style="cursor: default;"> <b>Choose Meal ( Any Three )</b> </h3><br>
-        <input type="checkbox" class="Meal" name="Choose Meal" value="rice" style="cursor: pointer;">
-        <label style="font-family: Verdana;"><b>Rice</b> </label>
-        <input type="checkbox" class="Meal" name="Choose Meal" value="beef" style="cursor: pointer;">
-        <label style="font-family: Verdana;"> <b>Beef</b></label>
-        <input type="checkbox" class="Meal" name="Choose Meal" value="chicken" style="cursor: pointer;">
-        <label style="font-family: Verdana;"><b>chicken</b> </label>
-        <input type="checkbox" class="Meal" name="Choose Meal" value="pepsi" style="cursor: pointer;">
-        <label style="font-family: Verdana;"><b>Mojo</b></label>
-        <input type="checkbox" class="Meal" name="Choose Meal" value="clemon" style="cursor: pointer;">
-        <label style="font-family: Verdana;"><b>Clemon</b></label><br><br><br>
-        <br><br><label style="font-family: Verdana; font-size: 20px;"><b>Boarding Form</b> </label>
-        
-        <br><br><select name="boarding" class="boarding" >
+            <br><br><label style="font-family: Verdana;" >Email Address</label>
+            <br><br><input type="email" class="box1" id="email" name="email" placeholder="Email" style="cursor: text;"><br>
+            <br><br><label style="font-family: Verdana;">Password</label><br>
+            <br><input type="password" class="box1" id="Password" name="Password" placeholder="Password" style="cursor: text;"><br>
+            <br><br><label style="font-family: Verdana;">Phone Number</label><br>
+            <br><input type="number" class="box1" id="number" name="number" placeholder="Contact " style="cursor: text;"><br>
             
-            <option>Choose</option>
-            <option  value="Dhaka">Dhaka</option>
-            <option  value="Chittagong">Chittagong</option>
-            <option  value="Cox's Bazar">Cox's Bazar</option>
-            <option  value="Sylhet">Sylhet</option>
-            <option  value="Rajshahi">Rajshahi</option>
-            <option  value="Saidpur">Saidpur</option>
-        </select><br><br>
-        <br><br><label style="font-family: Verdana; font-size: 20px;"><b>Destination</b></label>
+            <br><br><br><h3 style="cursor: default;"><b>Gender</b></h3><br>
+            <input type="radio" class="Gender" name="Gender" id="Gender" value="male" style="cursor: pointer;">
+            <label style="font-family: Verdana;"> <b>Male</b></label>
+            <input type="radio" class="Gender" name="Gender" id="Gender" value="female" style="cursor: pointer;">
+            <label style="font-family: Verdana;"> <b>Female</b></label><br><br>
 
-        <br><br><select name="destination" class="destination" >
+            <br><br><h3 style="cursor: default;"> <b>Choose Meal</b> </h3><br>
+            <input type="checkbox" class="Meal" name="Choose Meal" id="Meal" value="rice" style="cursor: pointer;">
+            <label style="font-family: Verdana;"><b>Rice</b> </label>
+            <input type="checkbox" class="Meal" name="Choose Meal" id="Meal" value="beef" style="cursor: pointer;">
+            <label style="font-family: Verdana;"> <b>Beef</b></label>
+            <input type="checkbox" class="Meal" name="Choose Meal" id="Meal" value="chicken" style="cursor: pointer;">
+            <label style="font-family: Verdana;"><b>chicken</b> </label>
+            <input type="checkbox" class="Meal" name="Choose Meal" id="Meal" value="pepsi" style="cursor: pointer;">
+            <label style="font-family: Verdana;"><b>Mojo</b></label>
+            <input type="checkbox" class="Meal" name="Choose Meal" id="Meal" value="clemon" style="cursor: pointer;">
+            <label style="font-family: Verdana;"><b>Clemon</b></label><br><br><br>
+            <br><br><label style="font-family: Verdana; font-size: 20px;"><b>Boarding Form</b> </label>
             
-            <option>Choose</option>
-            <option  value="Dhaka">Dhaka</option>
-            <option  value="Chittagong">Chittagong</option>
-            <option  value="Cox's Bazar">Cox's Bazar</option>
-            <option  value="Sylhet">Sylhet</option>
-            <option  value="Rajshahi">Rajshahi</option>
-            <option  value="Saidpur">Saidpur</option>
-        </select><br><br>
+            <br><br><select name="boarding" class="boarding" id="boarding">
+                
+                <option value="Choose">Choose</option>
+                <option  value="Dhaka">Dhaka</option>
+                <option  value="Chittagong">Chittagong</option>
+                <option  value="Cox's Bazar">Cox's Bazar</option>
+                <option  value="Sylhet">Sylhet</option>
+                <option  value="Rajshahi">Rajshahi</option>
+                <option  value="Saidpur">Saidpur</option>
+            </select><br><br>
+            <br><br><label style="font-family: Verdana; font-size: 20px;"><b>Destination</b></label>
 
+            <br><br><select name="destination" class="destination" id="destination">
+                
+                <option value="Choose">Choose</option>
+                <option  value="Dhaka">Dhaka</option>
+                <option  value="Chittagong">Chittagong</option>
+                <option  value="Cox's Bazar">Cox's Bazar</option>
+                <option  value="Sylhet">Sylhet</option>
+                <option  value="Rajshahi">Rajshahi</option>
+                <option  value="Saidpur">Saidpur</option>
+            </select><br><br><br>
 
+            <h4 id="error" style="color: red;"></h4>
 
-
-
-        <br><br><br><button style="cursor: pointer; width: 85px; text-align: center; height: 40px; border-radius: 10px; font-size: 15px;">Submit</button> <br><br><br>
+            <br><br><button onclick="valid()" style="cursor: pointer; width: 420px; text-align: center; height: 40px; border-radius: 10px; font-size: 15px;">Submit</button> <br><br><br>
+            
+        </form>
         
-    </form>
-    
+    </div>
+    <br><br><br><br><br><br>
+<script src="class 7 project.js"></script>   
 </body>
 </html>

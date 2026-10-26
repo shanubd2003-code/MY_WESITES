@@ -308,5 +308,6 @@
         "settings": { "foreground": "#CCFF00" }
       }
     ]
-  }
+  },
+  "liveServer.settings.port": 5501
 }

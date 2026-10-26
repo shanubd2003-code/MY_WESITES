@@ -133,10 +133,8 @@ h3{
 }
 
 .Button{
-    
-    box-shadow: 2px 2px 20px;
     color: whitesmoke;
-    border-color: orange groove;
+    border:2px orange double;
     font-size: 24px;
     border-radius: 50px;
     background-color: orange;
@@ -147,9 +145,8 @@ h3{
 }
 
 .Button:hover{
-    box-shadow: 2px 2px 20px;
     color: black;
-    border-color: lightblue groove;
+    border:2px lightblue double;
     font-size: 24px;
     border-radius: 50px;
     background-color: lightblue;
@@ -183,8 +180,8 @@ h5{
     background-color: #FFFFFF;
     margin-top: 160px;
     height: 500px;
-    border: 2px solid #FFFFFF;
     border-radius: 25px;
+    box-shadow: inset grey 0px 0px 15px;
 
 }
 
@@ -210,7 +207,7 @@ h5{
 }
 
 .Logo{
-    margin-top: -100px;
-    margin-left: -140px;
-    height: 300px;
+    margin-top: 10px;
+    margin-left: -80px;
+    height: 100px;
 }
